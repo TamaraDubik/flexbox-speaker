@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", serif;
+}
+
+body {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        display: flex;
+
+        .button {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    a {
+        flex: 1;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}

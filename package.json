@@ -1,0 +1,26 @@
+{
+  "name": "10_01_2023_uib-framework-sassy-speaker-shop_ex1-tamaradubik",
+  "version": "1.0.0",
+  "description": "speaker_shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass styles.scss styles.css --no-source-map --watch"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW22-E10/10_01_2023_uib-framework-sassy-speaker-shop_ex1-TamaraDubik.git"
+  },
+
+  "devDependencies": {
+   "sass": "^1.54.9"
+  },
+
+  "author": "Tamara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW22-E10/10_01_2023_uib-framework-sassy-speaker-shop_ex1-TamaraDubik/issues"
+  },
+  "homepage": "https://github.com/FbW22-E10/10_01_2023_uib-framework-sassy-speaker-shop_ex1-TamaraDubik#readme"
+}
